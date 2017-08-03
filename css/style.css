@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*共用样式*/
+body{width:980px;margin:0 auto;color:#e843bb;}
+a{color:#e843bb;}
+.fl{float:left;}
+.fr{float:right;}
+h1{background:url('../img/line.png') no-repeat left bottom;padding-bottom:9px;margin-bottom:32px;}
+h1 a{font:22px "中圆体";letter-spacing:3px;}
+/*header部分*/
+.header{height:146px;background:url('../img/top.png') no-repeat left top;}
+.logo{width:351px;height:89px;margin:57px 0 0 10px;}
+.tel{margin:102px 32px 0 0;font:16px "微软雅黑";font-weight:bold;letter-spacing:1px;}
+/*nav部分*/
+.nav{height:56px;line-height:56px;}
+.nav li{float:left;margin-left:78px;_display:inline;}
+.nav li a{font:16px "微软雅黑";}
+.nav li a:hover{text-decoration:none;font-weight:bold;}
+
+/*banner部分*/
+.banner{height:380px;}
+.banner img{width:978px;height:380px;margin-left:1px;}
+/*content部分*/
+.content{min-height:776px;}
+        /*content_one部分*/
+.con_one{height:250px;border-bottom:1px solid #5e5e5e;}
+.news{width:466px;margin-left:10px;}
+.news dl{margin-left:9px;}
+.news dt{width:133px;height:133px;background-color:#e843bb;border-radius:6px;behavior:url(ie-css3.htc);position:relative;}
+.news dt img{position:absolute;right:5px;bottom:5px;border-radius:6px;behavior:url(ie-css3.htc);}
+.news dd{margin-left:28px;}
+.news dd p{height:24px;line-height:24px;}
+.news dd p span{width:2px;height:2px;background-color:#4b4e5b;display:inline-block;margin-right:10px;vertical-align:middle;}
+.news dd p a{font:12px "宋体"; color:#4b4e5b;}
+.news dd p a:hover{color:#e843bb;text-decoration:none;}
+        /*content_two部分*/
+.con_two{width:970px;margin:12px 0 0 10px;}
+.left{width:300px;height:386px;}
+.left h1{margin-bottom:20px;}
+.left ul{width:228px;}
+.pic{width:186px;height:128px;background-color:#e843bb;border-radius:6px;margin-left:24px;behavior:url(ie-css3.htc);position:relative;}
+.pic img{position:absolute;right:5px;bottom:5px;border-radius:6px;behavior:url(ie-css3.htc);}
+.left p{font:12px "宋体";color:#4b4e5b;width:226px;margin:16px 0 0 24px;line-height:22px;}
+.activity{width:100px;margin:20px 0 0 24px;}
+.activity span{display:inline-block;}
+.activity a{line-height:22px;padding-left:4px;}
+.center{margin:0 34px;}
+        /*content_three部分*/
+.con_three{margin-top:30px;height:120px;}
+.con_three ul{height:102px;}
+.con_three li{float:left;margin-top:10px;margin-left:16px;width:460px;height:46px;border:1px solid #e843bb;border-bottom-left-radius:4px;border-top-left-radius:4px;behavior:url(ie-css3.htc);}
+.con_three li p{color:#e843bb;letter-spacing:1px;font:18px "微软雅黑";}
+.con_three li span{display:inline-block;margin-right:6px;padding:11px 0 0 28px;width:112px;height:35px;background-color:#e843bb;color:#fff;}
+.con_three .ml{margin-left:32px;}
+/*footer部分*/
+.footer{width:970px;height:224px;margin:30px 0 0 10px;background:url('../img/bottom.png') no-repeat left 176px;}
+.footer p a{margin-left:14px;letter-spacing:1px;}
+.footer p a:hover{text-decoration:underline;}
+.copy{text-align:center;font:14px "微软雅黑";color:#000;margin-top:60px;_margin:50px 0 24px 0 ;letter-spacing:1px;}
+/*剧汇星期天页面样式*/
+/*sunday介绍部分*/
+.sunday{height:252px;background:url('../img/bg_line.png') no-repeat left top;}
+.sunday dl{height:174px;padding-top:26px;}
+.sunday dt{float:left;padding-left:20px;}
+.sunday dd{float:right;width:632px;color:#4b4e5b;padding-top:56px;}
+.sunday h3{letter-spacing:1px;}
+.sunday p{text-align:justify;padding-right:42px;height:24px;line-height:24px;margin-top:4px;}
+/*sun_con部分*/
+        /*sun_con左边部分*/
+.sun_con h1{background:url(../img/jhxqt_line.png) no-repeat left bottom;}
+.sun_con .left{width:644px;height:1540px;border-right:1px solid #777;}
+.sun_con .top{height:760px;}
+.top_one dl{height:128px;padding:6px 39px 0 30px;}
+.top_one dt{float:left;width:186px;height:128px;background-color:#e843bb;border-radius:6px;behavior:url(ie-css3.htc);position:relative;}
+.top_one dt img{position:absolute;right:5px;bottom:5px;border-radius:6px;behavior:url(ie-css3.htc);}
+.top_one dd{float:right;color:#4b4e5b;margin-top:-18px;}
+.top_one dd p{width:340px;}
+.top_two{margin:30px 0;padding:6px 39px 0 30px;}
+.top_two h3{margin-bottom:12px;}
+.top_two h3 a{font:16px "微软雅黑";font-weight:700;}
+.top_two dl dt{float:left;}
+.top_two dl dd{float:left;width:310px;margin-top:-20px;}
+.top_two dl dd p{width:296px;text-align:justify;}
+.top_two dl dd .p1{color:#e843bb;margin-bottom:-16px;font-weight:700;font-size:14px;}
+.top_two span{display:block;width:82px;height:34px;line-height:34px;padding-left:20px;background-color:#e843bb;border-radius:4px;margin:10px 0 0 390px;}
+.top_two span a{color:#fff;font-weight:700;letter-spacing:1px;font-size:16px;}
+        /*sun_con右边部分*/
+.sun_con .right{width:308px;}
+.sun_con .right .news li{height:24px;line-height:24px;}
+.sun_con .right .news li span{width:3px;height:3px;background-color:#4b4e5b;display:inline-block;margin-right:10px;vertical-align:middle;}
+.sun_con .right .news li a{font:12px "宋体"; color:#4b4e5b;}
+.sun_con .right .news li a:hover{color:#e843bb;text-decoration:none;}
+.sun_con .right .tj{margin-top:40px;}
+.sun_con .right .news p{margin-top:54px;font-size:14px;}
+.sun_con .right .news p a{margin-left:10px;}
+/*sun_footer部分*/
+.sun_footer{width:970px;height:120px;margin:100px 0 0 10px;background:url('../img/bottom.png') no-repeat left 30px;}
+.sun_footer p{text-align:center;font:14px "微软雅黑";color:#000;margin-top:60px;_margin:50px 0 24px 0 ;letter-spacing:1px;}
+/*戏剧工场页面内容部分*/
+.xjgc dt img{padding-top:20px;}
+/*戏剧茶馆页面内容部分*/
+.xjcg dd{float:right;width:550px;color:#4b4e5b;padding-top:56px;}
+.xjcg_con{height:1520px;}
+.xjcg_con dl{padding-left:36px;width:980px;}
+         /*茶品推荐部分*/
+.cptj dt{float:left;width:136px;padding-left:50px;height:128px;background-color:#875d22;border-radius:6px;behavior:url(ie-css3.htc);position:relative;}
+.cptj dt img{position:absolute;right:5px;bottom:5px;border-radius:6px;behavior:url(ie-css3.htc);}
+.xjcg_con dd{width:700px;margin-left:40px;padding-top:20px;}
+.xjcg_con dd p{height:24px;line-height:24px;color:#4b4e5b;}
+        /*红茶系列/绿茶系列/茶点系列部分*/
+.cplb{margin-top:34px;}
+.cplb h3{color:#e843bb;font:16px "微软雅黑";border-bottom:1px solid #191919;padding:0 0 10px 26px;letter-spacing:1px;}
+.cplb ul{height:560px;}
+.cplb li{width:216px;float:left;text-align:center;margin-right:38px;margin-top:26px;}
+.cplb li img{text-align:center;}
+.cplb li p{color:#3d3e45;margin-top:20px;}
+.cplb li span{margin-top:12px;display:inline-block;}
+.cplb li .span_2{display:inline-block;width:102px;height:34px;line-height:34px;background-color:#e146b1;border-radius:4px;}
+.cplb li .span_2 a{color:#fff;font-weight:bold;letter-spacing:1px;font-size:16px;padding-left:10px;}
+.cplb li.mr{margin-right:0;}
+.cplb .li_3{padding-top:24px;}
+.cplb .li_3 p{margin-top:32px;}
+.cplb .ym{padding-left:558px;height:28px;margin-top:90px;border-bottom:1px solid #191919;padding-bottom:32px;}
+.cplb .ym a{display:inline-block;width:30px;height:28px;line-height:28px;border:1px solid #ccc;text-align:center;margin-right:2px;color:#005aa0;}
+.cplb .ym .a_1,.cplb .ym .a_2{width:60px;height:28px;}
+.cplb .ym a:hover,.cplb .ym .current{border:0;color:#f60;font-weight:bold;text-decoration:none;}
+        /*戏剧百科*/
+.xjbk{margin-top:30px;}
+.xjbk_two{height:248px;margin-top:40px;}
+.xjbk_two .left{width:460px;height:248px;padding-left:28px;border-right:0;}
+.xjbk_two .left_l {border-left:1px solid #d5d5d5;padding-left:10px;}
+.xjbk_two .left_r{padding-top:30px;}
+.xjbk_two .left_r p{width:330px;margin-top:0;}
+.xjbk_two .left_r p span{width:3px;height:3px;background-color:#4b4e5b;display:inline-block;margin-right:10px;vertical-align:middle;}
+.xjbk_two .left_r p a{font:12px "宋体"; color:#4b4e5b;}
+.xjbk_two .left_r p a:hover{color:#e843bb;text-decoration:none;}
+/*关于八厘米内容部分*/
+.gyblm dt{padding-left:80px;}
+.gyblm dd{margin-top:-28px;}
+.about_blm_con{height:770px;margin-top:-24px;}
+.about_gs{border-bottom:1px solid #b8b8b8;height:240px;margin-bottom:24px;}
+.about_blm_con h1{background:url('../img/jhxqt_line.png') no-repeat left bottom;margin-bottom:14px;}
+.about_blm_con h1 a{font-size:16px;font-weight:bold;letter-spacing:0;}
+.about_blm_con p{width:600px;text-align:justify;padding-left:252px;height:22px;line-height:22px;color:#414141;}
+.contact p{padding-top:40px;}
+/*注册会员部分*/
+.zc_con{height:544px;border-bottom:1px solid #000;}
+.zc_con table{height:280px;width:400px;margin:88px 0 0 250px;}
+.zc_con table .txt{text-align:right;color:#767676;}
+.zc_con table td input{width:286px;height:32px;border-radius:4px;border:1px solid #fcace3;background:url('../img/txt_bg.jpg') repeat-x;padding-left:10px;}
+.zc_con p {margin:50px 0 0 190px;}
+.zc_con p input{width:102px;height:34px;line-height:34px;background-color:#e146b1;border-radius:4px;color:#fff;font-weight:bold;letter-spacing:1px;font-size:16px;border:1px solid #e146b1;}
+/*会员登录部分*/
+.dl_con table{height:90px;margin-top:180px;}
+.dl_con p{margin-top:90px;}
